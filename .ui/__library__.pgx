@@ -1,0 +1,73 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "c4a0-f29e-13c5-8e65",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.4.6",
+			"props": {
+				"backgroundColor": "#EEEEEE",
+				"orientation": "PORTRAIT",
+				"flexProps": {
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"direction": "INHERIT",
+					"flexDirection": "COLUMN",
+					"flexWrap": "NOWRAP",
+					"justifyContent": "FLEX_START"
+				},
+				"name": "__library__",
+				"parent": null,
+				"children": [
+					"38ae-cebc-63ef-5eea",
+					"0ee6-282e-b4ed-d7e9"
+				],
+				"width": 131.25,
+				"height": 233.45
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "38ae-cebc-63ef-5eea",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"color": "#00A1F1",
+				"visible": false,
+				"name": "statusBar",
+				"parent": "c4a0-f29e-13c5-8e65",
+				"children": [],
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "0ee6-282e-b4ed-d7e9",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "__library__"
+			},
+			"className": ".headerBar",
+			"props": {
+				"title": "__library__",
+				"titleColor": "#000000",
+				"visible": false,
+				"backgroundColor": "#FFFFFF",
+				"name": "headerBar",
+				"parent": "c4a0-f29e-13c5-8e65",
+				"children": [],
+				"isRemovable": false
+			}
+		}
+	]
+}

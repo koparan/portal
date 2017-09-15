@@ -1,0 +1,113 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "4248-dd99-2d6a-e03b",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.4.6",
+			"props": {
+				"backgroundColor": "#EEEEEE",
+				"orientation": "PORTRAIT",
+				"flexProps": {
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"direction": "INHERIT",
+					"flexDirection": "COLUMN",
+					"flexWrap": "NOWRAP",
+					"justifyContent": "FLEX_START"
+				},
+				"name": "newPage002",
+				"parent": null,
+				"children": [
+					"9c87-851b-447b-a503",
+					"375a-a598-277d-5e17",
+					"b79c-1a2c-950b-5258"
+				],
+				"width": 165,
+				"height": 265.32
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "9c87-851b-447b-a503",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"color": "#00A1F1",
+				"visible": true,
+				"name": "statusBar",
+				"parent": "4248-dd99-2d6a-e03b",
+				"children": [],
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "375a-a598-277d-5e17",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "newPage002"
+			},
+			"className": ".headerBar",
+			"props": {
+				"title": "newPage002",
+				"titleColor": "#000000",
+				"visible": true,
+				"backgroundColor": "#FFFFFF",
+				"name": "headerBar",
+				"parent": "4248-dd99-2d6a-e03b",
+				"children": [],
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "Button",
+			"id": "b79c-1a2c-950b-5258",
+			"themeProps": {
+				"Sizes": "Default",
+				"Highlights": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true
+			},
+			"className": ".button",
+			"props": {
+				"width": 250,
+				"height": 70,
+				"touchEnabled": true,
+				"text": "Button",
+				"visible": true,
+				"backgroundColor": "#00A1F1",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "#FFFFFF",
+				"textAlignment": "MIDCENTER",
+				"font": {
+					"size": 16,
+					"bold": false,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"alignSelf": "AUTO"
+				},
+				"name": "button1",
+				"parent": "4248-dd99-2d6a-e03b",
+				"children": [],
+				"usePageVariable": true
+			}
+		}
+	]
+}
